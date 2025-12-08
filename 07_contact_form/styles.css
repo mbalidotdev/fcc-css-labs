@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(61, 57, 57);
+  background-color: rgb(117, 181, 160);
+}
+
+/* STYLE CONTAINER */
+.form-container {
+  width: 300px;
+  height: 450px;
+  margin: 70px auto;
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+/* STYLE LABELS */
+label {
+  color: rgb(94, 92, 104);
+}
+
+/* STYLE INPUT & TEXTAREA */
+input,
+textarea {
+  margin-bottom: 20px;
+  margin-top: 5px;
+  border: 0.5px solid rgb(212, 209, 209);
+  border-radius: 5px;
+  width: 250px;
+}
+
+/* STYLE INPUT */
+input {
+  height: 30px;
+}
+
+/* STYLE TEXTAREA */
+textarea {
+  height: 80px;
+  max-width: 250px;
+  min-width: 250px;
+}
+
+/* STYLE BUTTON */
+button {
+  padding: 11px 14px;
+  background-color: rgb(81, 174, 81);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
