@@ -37,3 +37,11 @@ _form styling, psuedo elements, attribute selector_
 ### [06. Set of Coloured Boxes](https://mbalimade-it.github.io/fcc-css-labs/06_set_of_coloured_boxes)
 
 _colours_
+
+### [07. Set of Coloured Boxes](https://mbalimade-it.github.io/fcc-css-labs/07_contact_form)
+
+_form styling_
+
+### [08. Feature Selection Page](https://mbalimade-it.github.io/fcc-css-labs/08_feature_selection_page)
+
+_checkbox styling_
