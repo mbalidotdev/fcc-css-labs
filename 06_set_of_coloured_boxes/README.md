@@ -1,15 +1,23 @@
 # Set of Coloured Boxes
 
-Simple set of coloured boxes I made to practice using different colour values. I found it fun and interesting to code as I had to get out of my comfort zone of using named colours.
+A collection of styled boxes demonstrating different CSS color value formats.
 
-I first coded the boxes according to the code requirements (see screenshot 1). After that, I coded it the way that I wanted by adding `box-shadow` and `radial-gradient` (see screenshot 2).
+## Features
 
-Screenshot 2 is the one used for this project.
+- Five colored boxes using different color formats (hex, RGB, HSL, named colors, gradients)
+- Box shadows for depth
+- Radial gradient effect on one box
+- Responsive grid layout
 
-## Screenshot 1:
+## Technologies
 
-![alt text](image.png)
+- HTML5
+- CSS3
 
-## Screenshot 2
+## Color Formats Used
 
-![alt text](image-1.png)
+- Hexadecimal (`#000051`)
+- RGB (`rgb(255, 0, 177)`)
+- Named colors (`green`)
+- HSL (`hsl(22, 100%, 57%)`)
+- Radial gradient (`radial-gradient(circle, red, blue)`)

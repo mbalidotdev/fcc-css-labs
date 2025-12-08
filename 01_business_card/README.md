@@ -1,13 +1,19 @@
 # Business Card
 
-This business card project was part of the Basic CSS course, and served as an introduction to basic CSS styling.
+A digital business card with profile information and social media links.
 
-For this project, I learned:
+## Features
 
-- How to use margin to provide spacing around elements.
-- Remove underline from links.
-- How to center an element using `margin: auto`
-- Change font size.
+- Profile image display
+- Contact information (email and phone)
+- Portfolio link
+- Social media links (Twitter, LinkedIn, GitHub)
+- Centered card layout with clean typography
+
+## Technologies
+
+- HTML5
+- CSS3
 
 # Screenshot
 

@@ -1,13 +1,19 @@
-# To-do List
+# To-Do List
 
-I enjoyed making this to-do list as it was more visually appealing.
+A simple to-do list application with checkboxes and resource links for each task.
 
-For this project I was introduced to different styling properties, such as `border-radius`,`box-shadow` and `list-style`.
+## Features
 
-- I learned to style the checkbox "box" to my own liking.
-- I also learned how to use pseudo classes to style elements at different states.
+- Interactive checkboxes for task completion
+- Sub-items with external resource links for each task
+- Hover and active states for links
+- Card-based design with shadow effects
+- Clean, centered layout
 
-I found it interesting that I basically used lists to structure my entire to-do list. But I guess it makes sense since it is a to-do "list".
+## Technologies
+
+- HTML5
+- CSS3
 
 # Screenshot
 
