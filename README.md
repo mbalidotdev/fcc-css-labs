@@ -45,3 +45,7 @@ _form styling_
 ### [08. Feature Selection Page](https://mbalimade-it.github.io/fcc-css-labs/08_feature_selection_page)
 
 _checkbox styling_
+
+### [09. Confidential Email Page](https://mbalimade-it.github.io/fcc-css-labs/09_confidentail_email_page)
+
+_transform, filter_
