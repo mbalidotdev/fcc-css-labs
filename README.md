@@ -46,6 +46,10 @@ _form styling_
 
 _checkbox styling_
 
-### [09. Confidential Email Page](https://mbalimade-it.github.io/fcc-css-labs/09_confidentail_email_page)
+### [09. Confidential Email Page](https://mbalimade-it.github.io/fcc-css-labs/09_confidential_email_page)
 
 _transform, filter_
+
+### [10. Playing Cards](https://mbalimade-it.github.io/fcc-css-labs/10_playing_cards)
+
+_transform, flexbox_
