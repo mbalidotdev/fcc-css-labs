@@ -51,6 +51,7 @@ button {
 input:focus,
 textarea:focus {
   border-color: green;
+  outline: none;
 }
 
 input:invalid,
