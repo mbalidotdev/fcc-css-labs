@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+tr[class="read"] {
+  background-image: linear-gradient(#47c92c, #94ef82);
+}
+
+tr[class="to-read"] {
+  background-image: linear-gradient(#464945, #eaf1e9);
+}
+tr[class="in-progress"] {
+  background-image: linear-gradient(#10ddef, #a7c6d4);
+}
+
+span {
+  display: inline-block;
+}
+
+tr[class="read"] span[class="status"] {
+  border: 2px rgb(41, 221, 17) solid;
+  background-image: linear-gradient(#32f80a, #1e9805);
+}
+
+tr[class="in-progress"] span[class="status"] {
+  border: 2px rgb(8, 67, 130) solid;
+  background-image: linear-gradient(#2877e6, #2854e5);
+}
+
+span[class="status"],
+span[class="rate"] {
+  height: 100px;
+  width: 30px;
+  padding: 30px;
+}
+
+/* You should use an attribute selector to target the span elements which are direct children of span elements with the class value starting with rate and set their border, border-radius, margin, height, width, and background-color properties. */
+
+span[class^="rate"] > span {
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: 5px;
+  height: 10px;
+  width: 10px;
+  background-color: blue;
+}
+
+/* You should use an attribute selector to target the first descendant of span elements that have the word one as a part of their class value and set its background-image property to use a linear-gradient. */
+
+span[class~="one"] span:first-child {
+  background-image: linear-gradient(rgb(62, 13, 13), rgb(176, 176, 195));
+}
+
+/* You should use an attribute selector to target the first two descendants of span elements that have the word two as a part of their class value and set their background-image property to use a linear-gradient.
+ */
+
+span[class~="two"] span:nth-child(1),
+span[class~="two"] span:nth-child(2) {
+  background-image: linear-gradient(red, blue);
+}
+
+/* You should use an attribute selector to target the three span elements that are descendants of span elements that have the word three as a part of their class value and set their background-image property to use a linear-gradient. */
+
+span[class~="three"] span {
+  background-image: linear-gradient(red, blue);
+}
